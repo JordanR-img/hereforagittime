@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Shopping list</h1>
+    <input type="text" id="item" placeholder="list item" /> X
+    <input type="number" id="amount" placeholder="amount" />
+    <button onclick="addItem()">Add to list</button>
+    <p id="display"></p>
+
+    <h1>Shopping Basket</h1>
+    <p>
+      Enter all the products you've put into your shopping basket, separated by
+      commas, to see if you've forgotten anything.
+    </p>
+
+    <input type="text" id="shoppingBasket" /><input
+      type="button"
+      value="Put item in basket"
+      onclick="checkItems()"
+      
+    /><br /><br />
+    <span id="reminder">Here are the items you still need to get:</span>
+
+    <script>
+      "use strict";
+      const basket = document.getElementById("shoppingBasket");
+      //shoppingList is an array of objects
+      let shoppingList = [];
+
+      function addItem() {
+        const itemToAdd = {
+          item: document.getElementById("item").value,
+          quantity: document.getElementById("amount").value,
+        };
+        shoppingList.push(itemToAdd);
+        displayList();
+        console.log(shoppingList);
+        // accessing both of the inputs value by using .value
+      }
+
+      function deleteItem(itemToDelete) {
+        //deleting using the splice method
+        shoppingList.splice(itemToDelete, 1);
+        displayList();
+      }
+      // we use span because it's an inline element and we can have the little image on the same row
+      function displayList() {
+        //clear the display once we delete
+        document.getElementById("display").innerHTML = "";
+        for (let shoppingListItem of shoppingList) {
+          document.getElementById("display").innerHTML += `${
+            shoppingListItem.item
+          } x ${
+            shoppingListItem.quantity
+          }<span style = "cursor:pointer" onclick = "deleteItem(${shoppingList.indexOf(
+            shoppingListItem
+          )})">&#10062;</span><br>`;
+        }
+      }
+
+      function checkItems() {
+        const splitBasket = basket.value.toLowerCase().split(",");
+        console.log(splitBasket);
+        // filter is checking to see if any element in an array is passing the condition
+        const itemsStillToBuy = shoppingList.filter(function (
+          shoppingListElement
+        ) {
+          const itemsInBasket = shoppingListElement.item.toLowerCase();
+          // the condition for the filter statement, cycling through with the includes() method, it checks if an array contains something
+          return !splitBasket.includes(itemsInBasket);
+        });
+        console.log(itemsStillToBuy);
+
+        if (itemsStillToBuy.length !== 0) {
+          document.getElementById("reminder").innerHTML =
+            "Here are the items you still need to get: <br/>";
+
+          for (let itemStillToBuy of itemsStillToBuy) {
+            document.getElementById(
+              "reminder"
+            ).innerHTML += `${itemStillToBuy.item} x ${itemStillToBuy.quantity} <br/>`;
+          }
+        } else {
+          document.getElementById("reminder").innerHTML =
+            "-------You got everything (smiley face)-----------------";
+        }
+      }
+    </script>
+  </body>
+</html>

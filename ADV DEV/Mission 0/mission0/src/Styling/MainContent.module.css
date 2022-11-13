@@ -1,0 +1,40 @@
+.MainContainer {
+  /* border: solid red; */
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.FormContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.h1 {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  margin-right: 60%;
+}
+
+.Search {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(14, 15, 14, 0.516);
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* margin: 40px; */
+}
+
+.FormItems {
+    display: flex;
+    width: 20%;
+    /* border: solid red; */
+}

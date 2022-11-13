@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap');
+
+.NavBarList {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid black; */
+    width: 400px;
+}
+
+.NavBarContainer {
+  
+    /* height: 9%; */
+    /* border: solid blue; */
+    top: 10vh;
+}
+
+.NavBarItems {
+    display: flex;
+    justify-content: space-around;
+    /* border: solid green 10px; */
+    /* padding: 10px; */
+
+    /* max-height: 1vh; */
+
+}
+
+.NavBarItemsLeft {
+    /* border: solid purple; */
+    display: flex;
+    justify-content: flex-start;
+    /* margin: 0, 10px; */
+    width: 40%;
+    /* padding: 10px; */
+  
+}
+
+.NavBarListLeft {
+    font-family: 'Lobster', cursive;
+    list-style-type: none;
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.NavBarListLeft li{
+    margin-right: 80px;
+}
+
+
+.NavBarItemsRight {
+    font-family: 'Lobster', cursive;
+    /* border: solid salmon; */
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Login {
+    cursor: pointer;
+    box-shadow: 5px 2px #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    width: 50px;
+    /* margin: 10px, 10px; */
+}
+
+.Menu {
+    cursor: pointer;
+    /* border: solid red; */
+    /* margin: 10px; */
+}

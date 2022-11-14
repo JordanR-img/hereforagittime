@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./components/NavBar.js";
 import MainContent from './components/MainContent.js'
+import Footer from './components/Footer.js';
 function App() {
   return (
     <div className="App">
@@ -11,7 +12,7 @@ function App() {
       </header>
       <section><MainContent/></section>
 
-      <footer></footer>
+      <footer><Footer /></footer>
     </div>
   );
 }

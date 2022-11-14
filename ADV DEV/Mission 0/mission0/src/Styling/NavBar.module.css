@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap');
 .NavBarList {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     /* border: solid black; */
     width: 400px;
 }
@@ -36,7 +37,7 @@
 }
 
 .NavBarListLeft {
-    font-family: 'Lobster', cursive;
+    font-family: 'Abril Fatface', cursive;
     list-style-type: none;
     /* border: solid red; */
     display: flex;
@@ -45,12 +46,14 @@
 }
 
 .NavBarListLeft li{
-    margin-right: 80px;
+    /* margin-right: 80px; */
+    /* border: solid red; */
+    display: flex;
 }
 
 
 .NavBarItemsRight {
-    font-family: 'Lobster', cursive;
+    font-family: 'Abril Fatface', cursive;
     /* border: solid salmon; */
     width: 80%;
     display: flex;
@@ -58,12 +61,14 @@
 }
 
 .Login {
+    background-color: rgba(0, 0, 0, 0.467);
+    color: white;
     cursor: pointer;
     box-shadow: 5px 2px #888888;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     width: 50px;
     /* margin: 10px, 10px; */
 }
@@ -72,4 +77,21 @@
     cursor: pointer;
     /* border: solid red; */
     /* margin: 10px; */
+}
+
+.FoodFinder {
+    margin-right: 10px;
+    width: 10%;
+    border-radius: 10px;
+    /* border: solid black; */
+}
+
+.FoodFinderList {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 150%;
+    
+
+    /* border: solid rgb(25, 49, 99); */
+    width: 20%;
 }

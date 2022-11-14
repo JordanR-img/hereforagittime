@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap');
+
+.FooterContainer {
+    
+    /* border: 5px solid red; */
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.FooterItems {
+    font-family: 'Abril Fatface', cursive;
+    /* border: solid black; */
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}

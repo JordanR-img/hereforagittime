@@ -19,3 +19,30 @@
     justify-content: space-evenly;
 
 }
+
+.craving {
+    border: solid red;
+    
+    opacity: 0.3;
+}
+
+.CravingContainer {
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+    background-image: url("../public/MainContentCraving.jpg");
+    height: 20vh;
+    width: 40vh;
+    font-size: 130%;
+}
+.CravingText {
+    /* background-color: rgba(0, 0, 0, 0.426); */
+    background-color: rgba(0, 0, 0, 0.859);
+
+    /* border: ;
+    display: flex;
+    justify-content: center; */
+}

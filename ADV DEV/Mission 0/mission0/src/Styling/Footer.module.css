@@ -27,7 +27,7 @@
 }
 
 .CravingContainer {
-    border-radius: 10px;
+    border-radius: 50px;
     color: white;
     display: flex;
     justify-content: center;
@@ -45,4 +45,50 @@
     /* border: ;
     display: flex;
     justify-content: center; */
+}
+
+
+
+@media (max-width: 750px){
+    .FooterItems {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .CravingContainer {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .CravingText {
+        width: 90%;
+        /* border: solid red; */
+        border-radius: 10px;
+    }
+    .FooterContainer {
+        padding-top: 10%;
+    }
+}
+
+@media all and (max-width: 500px){
+    .FooterItems {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .CravingContainer {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .CravingText {
+        width: 90%;
+        /* border: solid red; */
+        border-radius: 10px;
+    }
+    .FooterContainer {
+        padding-top: 10%;
+    }
 }

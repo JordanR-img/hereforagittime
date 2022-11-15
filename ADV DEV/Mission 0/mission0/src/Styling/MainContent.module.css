@@ -52,3 +52,123 @@
     width: 20%;
     /* border: solid red; */
 }
+
+
+/* 
+@media all and (max-width: 750px) {
+  .h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+ 
+  
+  
+} */
+
+
+@media (max-width: 750px) {
+  .MainContainer {
+    width: 99%;
+    height: 80%;
+    /* border: solid black; */
+    /* display: flex;
+    flex-direction: column; */
+
+  }
+
+  .MainContainerItems {
+    height: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+
+    /* border: solid red; */
+    /* margin-bottom: 10%; */
+  }
+
+  .h1 {
+    text-align: center;
+    border: solid purple;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50%, 0%, 0%, 0%; */
+    /* width: 50%; */
+    /* height: 50%; */
+  }
+
+  .FormContainer {
+    /* border: solid; */
+    /* border-radius: 10%; */
+  }
+  .FormItems{
+    /* border: solid; */
+    /* border-radius: 100%; */
+   
+    width: 40%;
+  }
+
+  .Search {
+    border-radius: 0% 10% 10% 0%;
+  }
+
+  .textarea {
+    border-radius: 10% 0% 0% 10%;
+  }
+  
+  
+}
+
+@media all and (max-width: 500px) {
+  .MainContainer {
+    width: 99%;
+    height: 80%;
+    /* border: solid black; */
+    /* display: flex;
+    flex-direction: column; */
+
+  }
+
+  .MainContainerItems {
+    height: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+
+    /* border: solid red; */
+    /* margin-bottom: 10%; */
+  }
+
+  .h1 {
+    text-align: center;
+    border: solid purple;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50%, 0%, 0%, 0%; */
+    /* width: 50%; */
+    /* height: 50%; */
+  }
+
+  .FormContainer {
+    /* border: solid; */
+    /* border-radius: 10%; */
+  }
+  .FormItems{
+    /* border: solid; */
+    /* border-radius: 100%; */
+   
+    width: 40%;
+  }
+
+  .Search {
+    border-radius: 0% 10% 10% 0%;
+  }
+
+  .textarea {
+    border-radius: 10% 0% 0% 10%;
+  }
+
+}

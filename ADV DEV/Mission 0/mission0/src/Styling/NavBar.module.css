@@ -95,3 +95,136 @@
     /* border: solid rgb(25, 49, 99); */
     width: 20%;
 }
+
+@media (max-width: 750px){
+    .NavBarItems {
+        display: flex;
+        flex-direction: column;
+        /* margin: 10%; */
+        border: solid red;
+        align-items: center;
+    }
+    .FoodFinder {
+        /* height: 110%; */
+        /* border-radius: 10px; */
+        /* width: 20%; */
+        /* padding: 10px; */
+        /* display: flex; */
+        align-items: center;
+        border: solid red;
+    }
+
+    .FoodFinderList {
+        display: none;
+        /* margin: 10px; */
+    }
+
+    .Menu {
+        margin-bottom: 10px;
+    }
+    .Login{
+        /* border: solid red; */
+    }
+
+    .NavBarList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        /* margin: 10%; */
+        border: solid black;
+    }
+
+    .NavBarListLeft {
+        /* border: solid red; */
+        /* width: 100vw; */
+        /* justify-content: center; */
+        /* margin-left: 25%; */
+    }
+
+    .NavBarItemsLeft {
+        /* border: solid black; */
+        /* width: 59vh; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .NavBarContainer {
+        border: solid red;
+        display: flex;
+    }
+
+    .NavBarItemsRight {
+        border: solid red;
+        display: flex;
+        width: 50%;
+        
+    }
+}
+
+
+@media (max-width: 500px){
+    .NavBarItems {
+        display: flex;
+        flex-direction: column;
+        /* margin: 10%; */
+        border: solid red;
+        align-items: center;
+    }
+    .FoodFinder {
+        /* height: 110%; */
+        /* border-radius: 10px; */
+        /* width: 20%; */
+        /* padding: 10px; */
+        /* display: flex; */
+        align-items: center;
+        border: solid red;
+    }
+
+    .FoodFinderList {
+        display: none;
+        /* margin: 10px; */
+    }
+
+    .Menu {
+        margin-bottom: 10px;
+    }
+    .Login{
+        /* border: solid red; */
+    }
+
+    .NavBarList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        /* margin: 10%; */
+        border: solid black;
+    }
+
+    .NavBarListLeft {
+        /* border: solid red; */
+        /* width: 100vw; */
+        /* justify-content: center; */
+        /* margin-left: 25%; */
+    }
+
+    .NavBarItemsLeft {
+        /* border: solid black; */
+        /* width: 59vh; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .NavBarContainer {
+        border: solid red;
+        display: flex;
+    }
+
+    .NavBarItemsRight {
+        border: solid red;
+        display: flex;
+        width: 50%;
+        
+    }
+}

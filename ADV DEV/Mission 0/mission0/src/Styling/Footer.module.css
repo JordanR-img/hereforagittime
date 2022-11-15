@@ -21,7 +21,7 @@
 }
 
 .craving {
-    border: solid red;
+    /* border: solid red; */
     
     opacity: 0.3;
 }
@@ -49,7 +49,7 @@
 
 
 
-@media (max-width: 750px){
+@media all and (max-width: 750px){
     .FooterItems {
         display: flex;
         flex-direction: column;
@@ -71,6 +71,7 @@
     }
 }
 
+
 @media all and (max-width: 500px){
     .FooterItems {
         display: flex;
@@ -89,6 +90,32 @@
         border-radius: 10px;
     }
     .FooterContainer {
+        padding-top: 10%;
+    }
+}
+
+@media all and (max-width: 390px){
+    .FooterItems {
+        border: black;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .CravingContainer {
+        margin: 10px;
+        text-align: center;
+        /* border: solid red; */
+    }
+
+    .CravingText {
+        width: 90%;
+        /* border: solid red; */
+        border-radius: 10px;
+    }
+    .FooterContainer {
+        width: 112%;
+        /* border: solid; */
         padding-top: 10%;
     }
 }

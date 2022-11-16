@@ -3,7 +3,7 @@ import logo from "../public/FoodFinder.png";
 import { useState } from "react";
   import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
  
-  import {faBars, faDisplay} from '@fortawesome/free-solid-svg-icons'
+  import {faBars} from '@fortawesome/free-solid-svg-icons'
 
 export default function NavBar() {
   // const [nav, hideNav] = useState(true);

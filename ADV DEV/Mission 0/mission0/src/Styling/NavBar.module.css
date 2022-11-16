@@ -2,6 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap");
 
 
+.hamburger {
+  display: none;
+}
+
+.Menu:hover {
+  background-color: rgba(0, 0, 0, 0.786);
+  /* border-radius: 10px; */
+  color: white;
+  border: 2px black;
+  /* font-size: 10px; */
+}
 
 .NavBarList {
   list-style-type: none;
@@ -82,70 +93,115 @@
   margin-right: 10px;
   width: 10%;
   border-radius: 10px;
+
   /* border: solid black; */
 }
 
 .FoodFinderList {
+
   display: flex;
   justify-content: flex-end;
-  font-size: 150%;
-
-  /* border: solid rgb(25, 49, 99); */
-  width: 20%;
+  font-size: 250%;
+  width: 40%;
 }
 
-.Hamburger {
-    display: block;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
-}
-
-@media all and (max-width: 750px) {
-  .NavBarItems {
+@media all and (max-width: 1200px){
+  .FoodFinderList {
     display: flex;
-    /* flex-direction: column; */
+    /* margin-right: 40%; */
+
+    /* margin: 10px; */
+    /* border: solid purple; */
+    width: 110%;
+
+  }
+
+  .FoodFinder {
+    width: 20%;
+
+  }
+}
+@media all and (max-width: 750px) {
+
+  .hamburger {
+    margin-right: 30px;
+    display: block;
+    /* border: solid red; */
+    display: flex;
+    align-items: center;
+    /* width: 1; */
+    /* position: absolute; */
+    /* margin-top: 10px; */
+  }
+
+  .NavBarItems {
+    display: flex; 
+  
     /* margin: 10%; */
-    border: solid red;
+     /* border: solid red;  */
     align-items: center;
   }
   .FoodFinder {
+    /* display: flex; */
+    /* justify-content: start; */
     /* height: 110%; */
     /* border-radius: 10px; */
-    /* width: 20%; */
+    width: 20%;
     /* padding: 10px; */
     /* display: flex; */
-    align-items: center;
+    /* align-items: center; */
     /* border: solid red; */
   }
 
   .FoodFinderList {
-    /* display: none; */
+    display: flex;
+    /* margin-right: 40%; */
+
     /* margin: 10px; */
-    border: solid purple;
+    /* border: solid purple; */
+    width: 110%;
   }
 
   .Menu {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin-right: 10px;
+    /* font-size: 13px; */
+  }
+
+  .Menu:hover {
+  background-color: rgba(0, 0, 0, 0.786);
+  /* border-radius: 10px; */
+  color: white;
+  border: 2px black;
+  /* font-size: 10px; */
+    
   }
   .Login {
     /* border: solid red; */
   }
 
+  .LogoList {
+    width: 90%;
+    /* padding-left: 20px; */
+    /* border: solid gold; */
+    display: flex;
+  }
+
   .NavBarList {
     display: flex;
-    /* flex-direction: column; */
+    /* padding-right: 10px; */
     justify-content: center;
-    /* align-items: center; */
-    /* margin: 10%; */
-    border: solid black;
+    align-items: center; 
+     /* margin-right: 10%;  */
+     /* border: solid black; */
+    /* display: inline-block; */
   }
 
   .NavBarListLeft {
-    /* border: solid red; */
-    /* width: 100vw; */
+    /* border: solid black; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    width: 30vw;
     /* justify-content: center; */
     /* margin-left: 25%; */
   }
@@ -153,31 +209,57 @@
   .NavBarItemsLeft {
     /* border: solid black; */
     /* width: 59vh; */
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
   }
 
   .NavBarContainer {
     /* border: solid red; */
-    display: flex;
+    /* display: flex; */
   }
 
   .NavBarItemsRight {
     /* border: solid red; */
     display: flex;
-    width: 50%;
+    width: 60%;
+    /* flex-direction: column; */
+    /* width: 30%; position: fixed; */
     
   }
 
 }
 
-@media all and (max-width: 500px) {
-  .NavBarItems {
+@media all and (max-width: 650px){
+  .NavBarList {
     display: flex;
-    flex-direction: column;
+    /* padding-right: 10px; */
+    justify-content: center;
+    align-items: center; 
+  }
+  .Menu {
+    margin: 10px;
+   border: solid red;
+   padding: 10px;
+   font-size: smaller;
+  }
+  
+}
+
+
+@media all and (max-width: 500px) {
+  .LogoList {
+    width: 90%;
+    /* padding-left: 20px; */
+    /* border: solid gold; */
+    display: flex;
+  }
+  .NavBarItems {
+    /* display: flex;
+    flex-direction: column; */
     /* margin: 10%; */
     /* border: solid red; */
-    align-items: center;
+    /* align-items: center; */
+    /* display: none; */
   }
   .FoodFinder {
     /* height: 110%; */
@@ -190,8 +272,12 @@
   }
 
   .FoodFinderList {
-    display: none;
+    display: flex;
+    /* margin-right: 40%; */
+
     /* margin: 10px; */
+    /* border: solid purple; */
+    width: 110%;
   }
 
   .Menu {
@@ -203,18 +289,20 @@
 
   .NavBarList {
     display: flex;
-    flex-direction: column;
+    /* padding-right: 10px; */
     justify-content: center;
-    /* align-items: center; */
-    /* margin: 10%; */
-    /* border: solid black; */
+    align-items: center; 
+     /* margin-right: 10%;  */
+     /* border: solid black; */
+    /* display: inline-block; */
   }
-
   .NavBarListLeft {
-    /* border: solid red; */
-    /* width: 100vw; */
-    /* justify-content: center; */
-    /* margin-left: 25%; */
+    /* border: solid red;
+   width: 100vw; 
+    justify-content: center; 
+    margin-left: 25%; */
+    width: 30vw;
+
   }
 
   .NavBarItemsLeft {
@@ -238,11 +326,12 @@
 
 @media all and (max-width: 390px) {
     .NavBarItems {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         /* margin: 10%; */
         /* border: solid red; */
-        align-items: center;
+        /* align-items: center; */
+        /* display: none; */
       }
       .FoodFinder {
         /* height: 110%; */
@@ -255,7 +344,7 @@
       }
     
       .FoodFinderList {
-        display: none;
+        /* display: none; */
         /* margin: 10px; */
       }
     
@@ -273,6 +362,12 @@
         /* align-items: center; */
         /* margin: 10%; */
         /* border: solid black; */
+      }
+      .LogoList {
+        width: 90%;
+        /* padding-left: 20px; */
+        /* border: solid gold; */
+        display: flex;
       }
     
       .NavBarListLeft {
@@ -299,4 +394,12 @@
         display: flex;
         width: 50%;
       }
+    }
+
+    .Menu:hover {
+      background-color: rgba(0, 0, 0, 0.786);
+      /* border-radius: 10px; */
+      color: white;
+      border: 2px black;
+      /* font-size: 10px; */
     }

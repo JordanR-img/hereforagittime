@@ -9,7 +9,7 @@ export default function MainContent() {
         <h1>What are you craving?</h1>
       </div>
       <div className={Style.FormContainer}>
-        <form className={Style.FormItems}><textarea rows="4" cols="" type="text" className={Style.textarea}/><label className={Style.Search}>Search</label></form>
+        <form className={Style.FormItems}><textarea rows="4" cols="" type="text" className={Style.textarea}/><label className={Style.Search}><p>Search</p></label></form>
       </div>
       </div>
     </div>

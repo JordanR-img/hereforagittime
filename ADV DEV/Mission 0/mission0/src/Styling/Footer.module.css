@@ -27,6 +27,7 @@
 }
 
 .CravingContainer {
+    text-align: center;
     border-radius: 50px;
     color: white;
     display: flex;
@@ -34,6 +35,34 @@
     align-items: center;
     /* border: solid red; */
     background-image: url("../public/MainContentCraving.jpg");
+    height: 20vh;
+    width: 40vh;
+    font-size: 130%;
+}
+
+.CravingContainer2 {
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+    background-image: url("../public/searchImage3.jpg");
+    height: 20vh;
+    width: 40vh;
+    font-size: 130%;
+}
+
+.CravingContainer3 {
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+    background-image: url("../public/searchImage5.jpg");
     height: 20vh;
     width: 40vh;
     font-size: 130%;
@@ -47,6 +76,27 @@
     justify-content: center; */
 }
 
+@media all and (max-width: 1100px){
+    .FooterItems {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .CravingContainer {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .CravingText {
+        width: 90%;
+        /* border: solid red; */
+        border-radius: 10px;
+    }
+    .FooterContainer {
+        padding-top: 10%;
+    }
+}
 
 
 @media all and (max-width: 750px){

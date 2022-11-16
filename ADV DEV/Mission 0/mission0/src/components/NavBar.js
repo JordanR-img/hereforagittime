@@ -3,7 +3,7 @@ import logo from "../public/FoodFinder.png";
 import { useState } from "react";
   import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
  
-  import {faBars} from '@fortawesome/free-solid-svg-icons'
+  import {faBars, faDisplay} from '@fortawesome/free-solid-svg-icons'
 
 export default function NavBar() {
   // const [nav, hideNav] = useState(true);
@@ -13,10 +13,10 @@ export default function NavBar() {
 
   //   }
   // }
-
+document.getElementById('NavBarList')
   const [show, setShow] = useState(true);
-  // if (Style.NavBarList === true) {
-  //   return setShow(false)
+  // if (show === false) {
+  //   return 'NavBarList' =
   // }
 
 //   useEffect(()=> {
@@ -44,7 +44,7 @@ export default function NavBar() {
         {show && (
             <ul className={Style.NavBarList} id="NavBarList">
               <li className={Style.Menu}>Subscribe</li>
-              <li className={Style.Menu}>Bug Report</li>
+              <li className={Style.Menu}><span>Bug Report</span></li>
               <li className={Style.Menu}>Contact</li>
               <li className={Style.Login}>Login</li>
             </ul>

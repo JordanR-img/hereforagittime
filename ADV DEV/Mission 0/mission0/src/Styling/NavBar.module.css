@@ -5,7 +5,7 @@
 .hamburger {
   /* border: solid red; */
   height: 5%;
-  /* display: none; */
+  display: none;
   position: absolute;
   right: 1%;
   top: 2%;  
@@ -112,31 +112,16 @@
   width: 40%;
 }
 
-@media all and (max-width: 1200px){
-  .FoodFinderList {
-    display: flex;
-    /* margin-right: 40%; */
 
-    /* margin: 10px; */
-    /* border: solid purple; */
-    width: 110%;
-
-  }
-
-  .FoodFinder {
-    width: 20%;
-
-  }
-}
 @media all and (max-width: 1451px) {
 
   .hamburger {
     cursor: pointer;
     margin-right: 30px;
-    display: block;
+    display: none;
     /* border: solid red; */
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     position: absolute;
     right: 0;
     top: 5%;
@@ -239,6 +224,22 @@
   }
 
 }
+@media all and (max-width: 1200px){
+  .FoodFinderList {
+    display: flex;
+    /* margin-right: 40%; */
+
+    /* margin: 10px; */
+    /* border: solid purple; */
+    width: 110%;
+
+  }
+
+  .FoodFinder {
+    width: 20%;
+
+  }
+}
 @media all and (max-width: 1070px) {
   
 
@@ -248,10 +249,10 @@
     right: 0;
     top: 5%;
     margin-right: 30px;
-    display: block;
+    display: none;
     /* border: solid red; */
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     /* width: 1; */
     /* position: absolute; */
     /* margin-top: 10px; */
@@ -426,7 +427,7 @@
   }
 
   .NavBarList {
-    display: flex;
+    display: none;
     /* padding-right: 10px; */
     justify-content: center;
     align-items: center; 
@@ -470,7 +471,7 @@
 @media all and (max-width: 650px){
 
   .NavBarList {
-    display: flex;
+    display: none;
     /* padding-right: 10px; */
     justify-content: center;
     align-items: center; 
@@ -557,7 +558,7 @@
   }
 
   .NavBarList {
-    display: flex;
+    display: none;
     /* padding-right: 10px; */
     justify-content: center;
     align-items: center; 
@@ -596,6 +597,7 @@
 
 @media all and (max-width: 390px) {
     .NavBarItems {
+  
         /* display: flex;
         flex-direction: column; */
         /* margin: 10%; */
@@ -626,7 +628,7 @@
       }
     
       .NavBarList {
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         /* align-items: center; */

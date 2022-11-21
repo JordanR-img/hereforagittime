@@ -63,9 +63,8 @@
 .textarea:focus {
   background-color: black;
   color: white;
+  font-family: 'Abril Fatface', cursive;
 }
-
-
 .FormItems {
     display: flex;
     width: 20%;

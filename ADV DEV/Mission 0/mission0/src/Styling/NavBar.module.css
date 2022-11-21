@@ -597,9 +597,9 @@
 
 @media all and (max-width: 390px) {
     .NavBarItems {
-  
+      display: none;
         /* display: flex;
-        flex-direction: column; */
+        /* flex-direction: column; */
         /* margin: 10%; */
         /* border: solid red; */
         /* align-items: center; */
@@ -628,9 +628,9 @@
       }
     
       .NavBarList {
-        display: none;
-        flex-direction: column;
-        justify-content: center;
+       display: none;
+        /* flex-direction: column;
+        justify-content: center; */
         /* align-items: center; */
         /* margin: 10%; */
         /* border: solid black; */

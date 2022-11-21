@@ -1,0 +1,16 @@
+.ChatBotContainer {
+    width: 100vh;
+    height: 100vh;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.ChatBot {
+    /* background-color: blue; */
+ 
+ 
+    border: solid red;
+}

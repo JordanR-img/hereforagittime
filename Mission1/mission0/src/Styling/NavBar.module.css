@@ -1,0 +1,677 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap");
+
+
+.hamburger {
+  /* border: solid red; */
+  height: 5%;
+  display: none;
+  position: absolute;
+  right: 1%;
+  top: 2%;  
+  cursor: pointer;
+}
+
+.Menu:hover {
+  background-color: rgba(0, 0, 0, 0.786);
+  /* border-radius: 10px; */
+  color: white;
+  border: 2px black;
+  /* font-size: 10px; */
+}
+
+.NavBarList {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: solid black; */
+  /* width: 20px; */
+  padding-right: 20vh;
+}
+
+.NavBarContainer {
+  /* height: 9%; */
+  /* border: solid blue; */
+  top: 10vh;
+}
+
+.NavBarItems {
+  display: flex;
+  justify-content: space-around;
+  /* border: solid green 10px; */
+  /* padding: 10px; */
+
+  /* max-height: 1vh; */
+}
+
+.NavBarItemsLeft {
+  /* border: solid purple; */
+  display: flex;
+  justify-content: flex-start;
+  /* margin: 0, 10px; */
+  width: 40%;
+  /* padding: 10px; */
+}
+
+.NavBarListLeft {
+  font-family: "Abril Fatface", cursive;
+  list-style-type: none;
+  /* border: solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.NavBarListLeft li {
+  /* margin-right: 80px; */
+  /* border: solid red; */
+  display: flex;
+}
+
+.NavBarItemsRight {
+  font-family: "Abril Fatface", cursive;
+  /* border: solid salmon; */
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Login {
+  background-color: rgba(0, 0, 0, 0.467);
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 2px #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid black 1px; */
+  width: 50px;
+  /* margin: 10px, 10px; */
+}
+
+.Menu {
+  cursor: pointer;
+  /* border: solid red; */
+  margin: 10px;
+}
+
+.FoodFinder {
+  margin-right: 10px;
+  width: 10%;
+  border-radius: 10px;
+
+  /* border: solid black; */
+}
+
+.FoodFinderList {
+
+  display: flex;
+  justify-content: flex-end;
+  font-size: 250%;
+  width: 40%;
+}
+
+
+@media all and (max-width: 1451px) {
+
+  .hamburger {
+    cursor: pointer;
+    margin-right: 30px;
+    display: none;
+    /* border: solid red; */
+    /* display: flex;
+    align-items: center; */
+    position: absolute;
+    right: 0;
+    top: 5%;
+    /* width: 1; */
+    /* position: absolute; */
+    /* margin-top: 10px; */
+  }
+
+  .NavBarItems {
+    display: flex; 
+  
+    /* margin: 10%; */
+     /* border: solid red;  */
+    align-items: center;
+  }
+  .FoodFinder {
+    /* display: flex; */
+    /* justify-content: start; */
+    /* height: 110%; */
+    /* border-radius: 10px; */
+    width: 20%;
+    /* padding: 10px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* border: solid red; */
+  }
+
+  .FoodFinderList {
+    display: flex;
+    /* margin-right: 40%; */
+
+    /* margin: 10px; */
+    /* border: solid purple; */
+    width: 110%;
+  }
+
+  .Menu {
+    /* margin-bottom: 10px; */
+    margin-right: 10px;
+    /* font-size: 13px; */
+  }
+
+  .Menu:hover {
+  background-color: rgba(0, 0, 0, 0.786);
+  /* border-radius: 10px; */
+  color: white;
+  border: 2px black;
+  /* font-size: 10px; */
+    
+  }
+  .Login {
+    /* border: solid red; */
+  }
+
+  .LogoList {
+    width: 90%;
+    /* padding-left: 20px; */
+    /* border: solid gold; */
+    display: flex;
+  }
+
+  .NavBarList {
+    display: flex;
+    /* padding-right: 10px; */
+    justify-content: center;
+    align-items: center; 
+     /* margin-right: 10%;  */
+     /* border: solid black; */
+    /* display: inline-block; */
+  }
+
+  .NavBarListLeft {
+    /* border: solid black; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    width: 30vw;
+    /* justify-content: center; */
+    /* margin-left: 25%; */
+  }
+
+  .NavBarItemsLeft {
+    /* border: solid black; */
+    /* width: 59vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+
+  .NavBarContainer {
+    /* border: solid red; */
+    /* display: flex; */
+  }
+
+  .NavBarItemsRight {
+    /* border: solid red; */
+    display: flex;
+    width: 60%;
+    /* flex-direction: column; */
+    /* width: 30%; position: fixed; */
+    
+  }
+
+}
+@media all and (max-width: 1200px){
+  .FoodFinderList {
+    display: flex;
+    /* margin-right: 40%; */
+
+    /* margin: 10px; */
+    /* border: solid purple; */
+    width: 110%;
+
+  }
+
+  .FoodFinder {
+    width: 20%;
+
+  }
+}
+@media all and (max-width: 1070px) {
+  
+
+  .hamburger {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    margin-right: 30px;
+    display: none;
+    /* border: solid red; */
+    /* display: flex;
+    align-items: center; */
+    /* width: 1; */
+    /* position: absolute; */
+    /* margin-top: 10px; */
+  }
+
+  .NavBarItems {
+    display: flex; 
+  
+    /* margin: 10%; */
+     /* border: solid red;  */
+    align-items: center;
+  }
+  .FoodFinder {
+    /* display: flex; */
+    /* justify-content: start; */
+    /* height: 110%; */
+    /* border-radius: 10px; */
+    width: 20%;
+    /* padding: 10px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* border: solid red; */
+  }
+
+  .FoodFinderList {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-right: 40%; */
+
+    /* margin: 10px; */
+    /* border: solid purple; */
+    font-size: 130%;
+    width: 130%;
+  }
+
+  .Menu {
+    /* margin-bottom: 10px; */
+    margin-right: 10px;
+    /* font-size: 13px; */
+  }
+
+  .Menu:hover {
+  background-color: rgba(0, 0, 0, 0.786);
+  /* border-radius: 10px; */
+  color: white;
+  border: 2px black;
+  /* font-size: 10px; */
+    
+  }
+  .Login {
+    /* border: solid red; */
+  }
+
+  .LogoList {
+    width: 90%;
+    /* padding-left: 20px; */
+    /* border: solid gold; */
+    display: flex;
+  }
+
+  .NavBarList {
+    display: flex;
+    /* padding-right: 10px; */
+    justify-content: center;
+    align-items: center; 
+     /* margin-right: 10%;  */
+     /* border: solid black; */
+    /* display: inline-block; */
+  }
+
+  .NavBarListLeft {
+    /* border: solid black; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    width: 30vw;
+    /* justify-content: center; */
+    /* margin-left: 25%; */
+  }
+
+  .NavBarItemsLeft {
+    /* border: solid black; */
+    /* width: 59vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+
+  .NavBarContainer {
+    height: 10vh;
+    /* border: solid red; */
+    /* position: absolute; */
+    /* display: flex; */
+  }
+
+  .NavBarItemsRight {
+    /* border: solid red; */
+    display: flex;
+    width: 60%;
+    /* flex-direction: column; */
+    /* width: 30%; position: fixed; */
+    
+  }
+
+}
+
+@media all and (max-width: 750px) {
+
+  .hamburger {
+    cursor: pointer;
+    margin-right: 30px;
+    display: block;
+    /* border: solid red; */
+    display: flex;
+    align-items: center;
+    /* width: 1; */
+    position: absolute;
+    right: 0;
+    top: 5%;
+    /* margin-top: 10px; */
+  }
+
+  .NavBarItems {
+    display: flex; 
+  
+    /* margin: 10%; */
+     /* border: solid red;  */
+    align-items: center;
+  }
+  .FoodFinder {
+    /* display: flex; */
+    /* justify-content: start; */
+    /* height: 110%; */
+    /* border-radius: 10px; */
+    width: 20%;
+    /* padding: 10px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* border: solid red; */
+  }
+
+  .FoodFinderList {
+    display: flex;
+    /* margin-right: 40%; */
+
+    /* margin: 10px; */
+    /* border: solid purple; */
+    width: 110%;
+  }
+
+  .Menu {
+    /* margin-bottom: 10px; */
+    margin-right: 10px;
+    /* font-size: 13px; */
+  }
+
+  .Menu:hover {
+  background-color: rgba(0, 0, 0, 0.786);
+  /* border-radius: 10px; */
+  color: white;
+  border: 2px black;
+  /* font-size: 10px; */
+    
+  }
+  .Login {
+    /* border: solid red; */
+  }
+
+  .LogoList {
+    width: 90%;
+    /* padding-left: 20px; */
+    /* border: solid gold; */
+    display: flex;
+  }
+
+  .NavBarList {
+    display: none;
+    /* padding-right: 10px; */
+    justify-content: center;
+    align-items: center; 
+     /* margin-right: 10%;  */
+     /* border: solid black; */
+    /* display: inline-block; */
+  }
+
+  .NavBarListLeft {
+    /* border: solid black; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    width: 30vw;
+    /* justify-content: center; */
+    /* margin-left: 25%; */
+  }
+
+  .NavBarItemsLeft {
+    /* border: solid black; */
+    /* width: 59vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+
+  .NavBarContainer {
+    /* border: solid red; */
+    /* display: flex; */
+  }
+
+  .NavBarItemsRight {
+    /* border: solid red; */
+    display: flex;
+    width: 60%;
+    /* flex-direction: column; */
+    /* width: 30%; position: fixed; */
+    
+  }
+
+}
+
+@media all and (max-width: 650px){
+
+  .NavBarList {
+    display: none;
+    /* padding-right: 10px; */
+    justify-content: center;
+    align-items: center; 
+    
+  }
+  .Menu {
+    margin: 20px;
+   /* border: solid red; */
+   padding: 10px;
+   font-size: smaller;
+  }
+  
+  .FoodFinderList {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-right: 40%; */
+
+    /* margin: 10px; */
+    /* border: solid purple; */
+    width: 90%;
+    font-size: 100%;
+  }
+
+  .FoodFinder {
+    display: flex;
+    /* height: 110%; */
+    /* border-radius: 10px; */
+    /* width: 20%; */
+    /* padding: 10px; */
+    /* display: flex; */
+    align-items: center;
+    /* border: solid red; */
+  }
+
+}
+
+
+@media all and (max-width: 500px) {
+
+  .FoodFinder {
+    width: 60%;
+  }
+
+  .LogoList {
+    width: 90%;
+    /* padding-left: 20px; */
+    /* border: solid gold; */
+    display: flex;
+  }
+  .NavBarItems {
+    /* display: flex;
+    flex-direction: column; */
+    /* margin: 10%; */
+    /* border: solid red; */
+    /* align-items: center; */
+    /* display: none; */
+  }
+  .FoodFinder {
+    display: flex;
+    /* height: 110%; */
+    /* border-radius: 10px; */
+    /* width: 20%; */
+    /* padding: 10px; */
+    /* display: flex; */
+    align-items: center;
+    /* border: solid red; */
+  }
+
+  .FoodFinderList {
+    display: flex;
+    /* padding-right: 200%; */
+    /* margin-right: 80%; */
+
+    /* margin: 10px; */
+    /* border: solid purple; */
+    width: 130%;
+  }
+
+  .Menu {
+    margin-bottom: 10px;
+  }
+  .Login {
+    /* border: solid red; */
+  }
+
+  .NavBarList {
+    display: none;
+    /* padding-right: 10px; */
+    justify-content: center;
+    align-items: center; 
+     /* margin-right: 10%;  */
+     /* border: solid black; */
+    /* display: inline-block; */
+  }
+  .NavBarListLeft {
+    /* border: solid red; */
+   /* width: 10vw;  */
+   padding-right: 20px;
+    justify-content: flex-start; 
+    /* margin-left: 25%; */
+    /* width: 30vw; */
+
+  }
+
+  .NavBarItemsLeft {
+    /* border: solid black; */
+    /* width: 59vh; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .NavBarContainer {
+    /* border: solid red; */
+    display: flex;
+  }
+
+  .NavBarItemsRight {
+    /* border: solid red; */
+    display: flex;
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 390px) {
+    .NavBarItems {
+      display: none;
+        /* display: flex;
+        /* flex-direction: column; */
+        /* margin: 10%; */
+        /* border: solid red; */
+        /* align-items: center; */
+        /* display: none; */
+      }
+      .FoodFinder {
+        /* height: 110%; */
+        /* border-radius: 10px; */
+        /* width: 20%; */
+        /* padding: 10px; */
+        /* display: flex; */
+        align-items: center;
+        /* border: solid red; */
+      }
+    
+      .FoodFinderList {
+        /* display: none; */
+        /* margin: 10px; */
+      }
+    
+      .Menu {
+        margin-bottom: 10px;
+      }
+      .Login {
+        /* border: solid red; */
+      }
+    
+      .NavBarList {
+       display: none;
+        /* flex-direction: column;
+        justify-content: center; */
+        /* align-items: center; */
+        /* margin: 10%; */
+        /* border: solid black; */
+      }
+      .LogoList {
+        width: 90%;
+        /* padding-left: 20px; */
+        /* border: solid gold; */
+        display: flex;
+      }
+    
+      .NavBarListLeft {
+        /* border: solid red; */
+        /* width: 100vw; */
+        /* justify-content: center; */
+        /* margin-left: 25%; */
+      }
+    
+      .NavBarItemsLeft {
+        /* border: solid black; */
+        /* width: 59vh; */
+        display: flex;
+        justify-content: center;
+      }
+    
+      .NavBarContainer {
+        /* border: solid red; */
+        display: flex;
+      }
+    
+      .NavBarItemsRight {
+        /* border: solid red; */
+        display: flex;
+        width: 50%;
+      }
+    }
+
+    .Menu:hover {
+      background-color: rgba(0, 0, 0, 0.786);
+      /* border-radius: 10px; */
+      color: white;
+      border: 2px black;
+      /* font-size: 10px; */
+    }

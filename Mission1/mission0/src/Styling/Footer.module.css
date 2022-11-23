@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap');
+
+.FooterContainer {
+    
+    /* border: 5px solid red; */
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.FooterItems {
+    font-family: 'Abril Fatface', cursive;
+    /* border: solid black; */
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.craving {
+    /* border: solid red; */
+    
+    opacity: 0.3;
+}
+
+.CravingContainer {
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+    /* background-image: url("../public/MainContentCraving.jpg"); */
+    height: 20vh;
+    width: 40vh;
+    font-size: 130%;
+}
+
+.CravingContainer2 {
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+    background-image: url("../public/searchImage3.jpg");
+    height: 20vh;
+    width: 40vh;
+    font-size: 130%;
+}
+
+.CravingContainer3 {
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+    background-image: url("../public/searchImage5.jpg");
+    height: 20vh;
+    width: 40vh;
+    font-size: 130%;
+}
+.CravingText {
+    /* background-color: rgba(0, 0, 0, 0.426); */
+    background-color: rgba(0, 0, 0, 0.859);
+
+    /* border: ;
+    display: flex;
+    justify-content: center; */
+}
+
+@media all and (max-width: 1080px){
+    .FooterItems {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .CravingContainer {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .CravingText {
+        width: 90%;
+        /* border: solid red; */
+        border-radius: 10px;
+    }
+    .FooterContainer {
+        padding-top: 10%;
+    }
+}
+
+
+@media all and (max-width: 768px){
+    .FooterItems {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .CravingContainer {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .CravingText {
+        width: 90%;
+        /* border: solid red; */
+        border-radius: 10px;
+    }
+    .FooterContainer {
+        padding-top: 10%;
+    }
+}
+
+@media all and (max-width: 390px){
+    .FooterItems {
+        border: black;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .CravingContainer {
+        margin: 10px;
+        text-align: center;
+        /* border: solid red; */
+    }
+
+    .CravingText {
+        width: 90%;
+        /* border: solid red; */
+        border-radius: 10px;
+    }
+    .FooterContainer {
+        width: 112%;
+        /* border: solid; */
+        padding-top: 10%;
+    }
+}

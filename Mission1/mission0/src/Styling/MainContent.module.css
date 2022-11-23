@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Lobster&family=Noto+Serif+Gujarati:wght@600&display=swap');
+
+.MainContainer {
+  /* border: solid red; */
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  background-color: rgba(169, 189, 165, 0.305);
+  /* background-color: rgba(169, 189, 165, 0); */
+
+  /* background-size: cover; */
+}
+.MainContainerItems{
+  /* border: solid red; */
+  height: 30vh;
+}
+.FormContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.h1 {
+  /* width: 100vh; */
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  border-radius: 20px;
+  /* border: solid red; */
+  /* background-color: rgba(0, 0, 0, 0.426); */
+  background-color: rgba(0, 0, 0, 0.994);
+
+  display: flex;
+  justify-content: center;
+
+  margin-right: 30%;
+  font-size: 200%;
+  margin-left: 10%;
+}
+
+.Search {
+  border-radius: 0% 10% 10% 0%;
+
+  font-family: 'Abril Fatface', cursive;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.994);
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-top: 20%;
+    /* margin: 40px; */
+}
+
+
+
+.textarea:focus {
+  background-color: black;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+.FormItems {
+    display: flex;
+    width: 20%;
+    /* border: solid red; */
+}
+
+
+.textarea {
+  border-radius: 10% 0% 0% 10%;
+  margin-top: 20%;
+
+}
+
+
+@media all and (max-width: 750px) {
+  .MainContainer {
+    width: 99%;
+    height: 80%;
+    /* border: solid black; */
+    /* display: flex;
+    flex-direction: column; */
+
+  }
+
+  .MainContainerItems {
+    height: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+
+    /* border: solid red; */
+    /* margin-bottom: 10%; */
+  }
+
+  .h1 {
+    text-align: center;
+    /* border: solid purple; */
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50%, 0%, 0%, 0%; */
+    /* width: 50%; */
+    /* height: 50%; */
+  }
+
+  .FormContainer {
+    /* border: solid; */
+    /* border-radius: 10%; */
+  }
+  .FormItems{
+    /* border: solid; */
+    /* border-radius: 100%; */
+   
+    width: 40%;
+  }
+
+  .Search {
+    border-radius: 0% 10% 10% 0%;
+  }
+
+  .textarea {
+    border-radius: 10% 0% 0% 10%;
+  }
+  
+  
+}
+
+@media all and (max-width: 500px) {
+  .MainContainer {
+    width: 99%;
+    height: 80%;
+    /* border: solid black; */
+    /* display: flex;
+    flex-direction: column; */
+
+  }
+
+  .MainContainerItems {
+    height: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+
+    /* border: solid red; */
+    /* margin-bottom: 10%; */
+  }
+
+  .h1 {
+    text-align: center;
+    /* border: solid purple; */
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50%, 0%, 0%, 0%; */
+    /* width: 50%; */
+    /* height: 50%; */
+  }
+
+  .FormContainer {
+    /* border: solid; */
+    /* border-radius: 10%; */
+  }
+  .FormItems{
+    /* border: solid; */
+    /* border-radius: 100%; */
+   
+    width: 40%;
+  }
+
+  .Search {
+    border-radius: 0% 10% 10% 0%;
+  }
+
+  .textarea {
+    border-radius: 10% 0% 0% 10%;
+  }
+
+}
+
+@media all and (max-width: 390px) {
+  .MainContainer {
+    width: 113vw;
+    height: 80%;
+    /* border: solid black; */
+    /* display: flex;
+    flex-direction: column; */
+
+  }
+
+  .MainContainerItems {
+    height: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+
+    /* border: solid red; */
+    /* margin-bottom: 10%; */
+  }
+
+  .h1 {
+    text-align: center;
+
+    /* border: solid purple; */
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50%, 0%, 0%, 0%; */
+    width: 80%;
+    /* height: 50%; */
+  }
+
+  .FormContainer {
+    /* border: solid; */
+    /* border-radius: 10%; */
+  }
+  .FormItems{
+    /* border: solid; */
+    /* border-radius: 100%; */
+   
+    width: 40%;
+  }
+
+  .Search {
+    border-radius: 0% 10% 10% 0%;
+  }
+
+  .textarea {
+    border-radius: 10% 0% 0% 10%;
+  }
+}

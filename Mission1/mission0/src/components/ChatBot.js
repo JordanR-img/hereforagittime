@@ -11,7 +11,7 @@ return (
 <div>
 <df-messenger
   intent="WELCOME"
-  chat-title="Appointment-Scheduler"
+  chat-title="Jarvis"
   agent-id="6628382f-3f62-435a-a816-175416050f49"
   language-code="en"
   

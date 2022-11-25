@@ -6,7 +6,7 @@ export default function footer() {
 
     <div className={Style.FooterContainer}>
       <div className={Style.FooterItems}>
-        <div className={Style.CravingContainer}><span className={Style.CravingText}><img src="../public/InstagramLogo.png" alt="instagram logo"/></span></div>
+        <div className={Style.CravingContainer}><span className={Style.CravingText}>Instagram</span></div>
         <div className={Style.CravingContainer2}><span className={Style.CravingText}>FaceBook</span></div>
         <div className={Style.CravingContainer3}><span className={Style.CravingText}>Email Alerts</span></div>
       </div>

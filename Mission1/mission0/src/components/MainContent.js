@@ -1,8 +1,15 @@
 import Style from "../Styling/MainContent.module.css";
 import logo from "../public/TurnersCarsBackgroundImage.jpeg";
+import HandleSearch from '../components/searchQuery.js';
+
+
 
 export default function MainContent() {
   return (
+
+    
+
+
     <div className={Style.MainContainer}>
       <div className={Style.MainContainerItems}>
         <div className={Style.h1}>

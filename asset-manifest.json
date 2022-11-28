@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/hereforagittime/static/css/main.be85d50a.css",
-    "main.js": "/hereforagittime/static/js/main.1812fd8b.js",
+    "main.css": "/hereforagittime/static/css/main.328517ea.css",
+    "main.js": "/hereforagittime/static/js/main.fe474bd3.js",
     "static/js/787.8f0bbeac.chunk.js": "/hereforagittime/static/js/787.8f0bbeac.chunk.js",
-    "static/media/backgroundimagebig.webp": "/hereforagittime/static/media/backgroundimagebig.740a32cac1cf87d5a73f.webp",
-    "static/media/MainContentCraving.jpg": "/hereforagittime/static/media/MainContentCraving.3887db3ba88c132b5b6c.jpg",
-    "static/media/searchImage3.jpg": "/hereforagittime/static/media/searchImage3.e925daac31923d442fcc.jpg",
-    "static/media/FoodFinder.png": "/hereforagittime/static/media/FoodFinder.5f5a4d4b2335f7634b01.png",
+    "static/media/cars2.jpg": "/hereforagittime/static/media/cars2.125d8bd2b1d294f618e2.jpg",
+    "static/media/cars4.jpg": "/hereforagittime/static/media/cars4.a8b9a4169ec3bba4e057.jpg",
     "index.html": "/hereforagittime/index.html",
-    "main.be85d50a.css.map": "/hereforagittime/static/css/main.be85d50a.css.map",
-    "main.1812fd8b.js.map": "/hereforagittime/static/js/main.1812fd8b.js.map",
+    "main.328517ea.css.map": "/hereforagittime/static/css/main.328517ea.css.map",
+    "main.fe474bd3.js.map": "/hereforagittime/static/js/main.fe474bd3.js.map",
     "787.8f0bbeac.chunk.js.map": "/hereforagittime/static/js/787.8f0bbeac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be85d50a.css",
-    "static/js/main.1812fd8b.js"
+    "static/css/main.328517ea.css",
+    "static/js/main.fe474bd3.js"
   ]
 }

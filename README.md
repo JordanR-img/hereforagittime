@@ -31,6 +31,8 @@ Is the website responsive (adapts to mobile screens)?
 
 End of Mission 0
 
+Start of Mission 1 details
+
 Tasks for Professional Software Developers
 As part of Mission Ready's Github Education offering, you get Free Microsoft Azure credits.  Please make sure you use the free credits for the Missions.  We cannot reimburse expenses you incur on Azure.
 
@@ -68,3 +70,5 @@ At the Show and Tell, you will present the tasks you completed.  This presentati
 
 Task 4. Submit your work
 By the end of Thursday, upload all of your work (screenshots, presentation slides, documents or other files) using the form below.
+
+End of mission 1

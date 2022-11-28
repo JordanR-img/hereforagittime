@@ -30,3 +30,41 @@ Are you worried about where to go back in case you have hit something wrong?
 Is the website responsive (adapts to mobile screens)?
 
 End of Mission 0
+
+Tasks for Professional Software Developers
+As part of Mission Ready's Github Education offering, you get Free Microsoft Azure credits.  Please make sure you use the free credits for the Missions.  We cannot reimburse expenses you incur on Azure.
+
+Task 1. Prototype to Showcase AI Solution
+Each member in the team will pick one of the following 3 projects to complete.  You can do more than one project if time permits.
+
+Project 1. Build an application to find Similar Cars
+
+The digital team at Turners would like to prototype a solution that allows a user to upload the picture of a car, and then find a similar car in their stock to recommend to customer. Build an application (either runs on your laptop or on the cloud) that can recognise motor vehicles (even better if it recognises certain types of vehicles, e.g. sedan vs hatchback) using a cloud-based AI service on Microsoft Azure. You can copy code from tutorials you find online, but make sure you read through the code so that you understand the code.  
+
+The following resources may help:
+
+REQUIRED Computer Vision service on Azure:  https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/
+Project 2. Showcase NLP
+
+The business is interested to add AI capabilities to help its customers. Create a prototype showcasing Natural Language Processing using Azure LUIS. Relate this to Turners by either building a prototype that relates to their business, or explain how they can use it during your Show and Tell.
+
+The following resources may help:
+
+REQUIRED Introduction to Natural Language Processing https://www.youtube.com/watch?v=8S3qHHUKqYk (30 mins) ​​​​​​​
+REQUIRED Step-by-step tutorial to build an app with Azure LUIS https://docs.microsoft.com/en-us/azure/cognitive-services/luis/ (8 hours)
+Project 3. Showcase AI Search
+
+The business is interested to add AI capabilities to help its customers.  Create a prototype showcasing AI Search capability using Azure Bing Search.  Relate this to Turners by either building a prototype that relates to their business, or explain in your Show and Tell how they can use it. 
+
+The following resources may help:
+
+REQUIRED What is Bing Search API https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/bing-api-comparison (5 mins)
+RECOMMENDED Azure Bing Search Getting Started https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/ (2 hours)
+Task 2. Ideate with UX Designers
+​​​​​​​Participate in an ideation session organized by the UX Designer of your team. Contribute ideas and feedback from a developer perspective (how easy/hard to implement, and how to make the design easier to implement in code). Limit this activity to up to 2 hours of your time.
+
+Task 3. Present at Show and Tell
+At the Show and Tell, you will present the tasks you completed.  This presentation should be designed to take around 3 minutes per person. The time limit will be strictly enforced. You are encouraged to demonstrate the live application.
+
+Task 4. Submit your work
+By the end of Thursday, upload all of your work (screenshots, presentation slides, documents or other files) using the form below.

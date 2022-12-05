@@ -1,6 +1,6 @@
 import Style from "../Styling/MainContent.module.css";
 import logo from "../public/TurnersCarsBackgroundImage.jpeg";
-import HandleSearch from '../components/searchQuery.js';
+// import HandleSearch from './index.js';
 
 
 

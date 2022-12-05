@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <style background-colour: red;></style>
+    <h1>Number facts</h1>
+    <p>enter a month</p>
+    <input type="text" id="month" />
+    <p>Enter a number </p>
+    <input type="text" id="day">
+    <input type="button" onclick="getFact()"/>
+    <p id="display"> find the fun fact here!</p>
+    <script>
+        function getFact() {
+            const month = document.getElementById('month').value;
+            const day = document.getElementById('day').value;
+            const xhr = new XMLHttpRequest();
+            xhr.onload = function() {
+                const res = JSON.parse(xhr.responseText);
+                for (const key in res){
+                    if (key == "text"){
+                        document.getElementById("display").innerHTML = res.text;
+
+                    } else if (res[key].text) {
+                        document.getElementById("display").innerHTML = res[key].text += '<br />';
+                    }
+                }
+            }
+            xhr.open('GET', 'http://numbersapi.com/' + month + '/' + day + '/date?json', true);
+            xhr.send();
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

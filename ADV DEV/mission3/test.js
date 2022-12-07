@@ -10,7 +10,7 @@ describe('CalculatePremium()', () => {
     //arrange
     const carValue = 1000;
     const riskRating = 3;
-    const expected = {"yearlyPremium":30,"monthlyPremium":2.5};
+    const expected = JSON.stringify({"yearlyPremium":30,"monthlyPremium":2.5});
     //act
     const actual = CalculatePremium(carValue, riskRating)
     //assert
@@ -41,35 +41,5 @@ describe('CalculatePremium()', () => {
   
 });
 
-
-
-
-// import App from './index';
-// const { cars } = require("./index.js");
-
-// describe("Users API", () => {
-//   it("GET /users", () => {
-//     // Make a GET request to the users route
-//     return request
-//       .get("/users")
-//       .expect(200)
-//       .then((res) => {
-//         assert.isNotEmpty(res.body);
-//       });
-//   });
-// });
-
-// it("POST /users", () => {
-//   const data = {
-//     name: "Test user",
-//     email: "test_user@digitalonus.com",
-//   };
-//   return request
-//     .post("/users")
-//     .send(data) // send payload data
-//     .then((res) => {
-//       assert.hasAnyKeys(res.body, "id");
-//       assert.equal(res.body.name, data.name);
-//       assert.equal(res.body.email, data.email);
-//     });
-// });
+// Why does the quote thing work?
+// Why do I need to do Json.stringify?

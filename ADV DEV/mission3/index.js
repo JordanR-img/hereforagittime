@@ -35,11 +35,12 @@ server.post("/PremiumQuote", (req, res) => {
     // console.log(riskRating)
      const quote = CalculatePremium(carValue, riskRating)
 
-        res.send(quote + "")
+        res.send(quote)
     // res.send(quote)
     // res.sendStatus(quote)
 })
 
+// res.send(quote + "") // In case the send breaks, try this
 
 
 // let testCar = {"car_value": 6614, "risk_rating": 5}
